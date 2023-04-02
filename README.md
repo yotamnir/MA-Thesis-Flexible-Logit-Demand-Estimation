@@ -1,0 +1,19 @@
+# MA Thesis – Economics Department, Hebrew University of Jerusalem
+
+### [Estimating Flexible Specifications of the Nested Logit Model](https://raw.githack.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/master/Thesis.pdf)
+
+**Abstract:** This thesis is interested in the estimation of a nested logit demand system in which the functional form of consumers’ indirect utility is either not assumed a priori by the researcher, or is of a high degree of complexity, such that standard parametric specifications or estimation methods are not appropriate. I summarize the restrictions on functional form that are imposed by economic theory and by the nested logit model, and propose a two-step approach to estimating the class of functional forms that is consistent with these restrictions. A Monte Carlo analysis demonstrates that despite its slower convergence rate, this approach can potentially provide significant improvements on the bias of a misspecified linear model, as well as providing guidance in the selection of a parametric functional form, even given relatively small datasets. An application to the domestic US airline market returns own price elasticity estimates that are consistent with the literature and cross price elasticity estimates that are around the upper tail of the results obtained in the literature, and reveals certain informative relationships between product characteristics in the functional form of their effects on consumer utility. The empirical application also reveals a possible omitted variable bias that is not apparent in the linear specification.
+
+-----
+
+## Repository Overview
+
+
+| Folder                | File                                | Description
+|:----------------------|:------------------------------------|:-------------
+| [Simulation](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/tree/master/Scripts/Simulation)           | [Simulation.ipynb](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/blob/master/Scripts/Simulation/Simulation.ipynb)                    | The simulation procedure, preceded by a brief summary of the simulation setup, the theoretical model, and the empirical model.
+|                       | [Boxplots.ipynb](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/blob/master/Scripts/Simulation/Boxplots.ipynb)                      | Boxplots displaying the distributions of the point estimates obtained from the simulation analysis for different sample sizes.
+|                       | [Figures 4,5,6.ipynb](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/blob/master/Scripts/Simulation/Figures%204%2C5%2C6.ipynb)                 | Figures displaying the distributions of continuous estimates (conditional average treatment effects and marginal treatment effects) obtained from the simulation analysis for different sample sizes.
+| [Empirical Application](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/tree/master/Scripts/Empirical%20Application) | [Empirical Application.ipynb](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/blob/master/Scripts/Empirical%20Application/Empirical%20Application.ipynb)         | The empirical application.
+|                       | [Descriptive Statistics.ipynb](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/blob/master/Scripts/Empirical%20Application/Descriptive%20Statistics.ipynb)        | Script producing the descriptive statistics Table 1 in the thesis.
+|                       | [Regressions for Regression Tables.R](https://github.com/yotamnir/MA-Thesis-Flexible-Logit-Demand-Estimation/blob/master/Scripts/Empirical%20Application/Regressions%20for%20regression%20tables.R) | Estimating and formatting the linear regression tables displayed in the thesis.
